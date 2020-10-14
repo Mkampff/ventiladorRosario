@@ -1,0 +1,19 @@
+MENU_HANDLER
+
+minimo_resp_minuto
+maximo_resp_minuto
+
+
+MAIN
+
+/////Rotary Encoder Pin Assignment/////
+#define rotaryPin_A 17//12
+#define rotaryPin_B 16//13
+#define rotaryButtonPin 23//8
+
+unsigned int respiraciones_minuto = 0;  // unidades   minimo nnnn maximo    nnn
+unsigned int volumen = 0;  // en cm3    minimo   nnn   maximo  ver maximo ambu
+unsigned int tiempo_insuflar =0;  //segundos   minimo  nnn   maximo  mmm
+unsigned int fraccion_inspirativa = 0;  //  unidades    minimo 1
+unsigned int fraccion_expirativa = 0;  // unidades  maximo  mmm
+
